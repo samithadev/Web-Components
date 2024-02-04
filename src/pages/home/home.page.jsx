@@ -9,7 +9,7 @@ export default function Home() {
         <Link to={"/card-scroll"}>
           <li className=" bg-black p-3">Cards</li>
         </Link>
-        <Link>
+        <Link to={"/image-slider"}>
           <li className=" bg-slate-600 p-3 mt-2">Image Slider</li>
         </Link>
       </ul>
